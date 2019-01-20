@@ -40,5 +40,5 @@ Technologies
 
 What I'll Have to Learn
 
-Spring Security:
+Spring Security, hibernate
 
