@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:fragment="common-header" >
+    <!--meta charset="UTF-8"-->
+    <title>Book Store</title>
+
+    <!-- Bootstrap core css-->
+    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link href="/css/non-responsive.css" rel="stylesheet" />
+
+    <!--Custom styles for this template-->
+    <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div th:fragment="navbar">
+    <div class="page-top"
+         style="width: 100%;"></div>
+    <!--static nav bar-->
+    <nav class="navbar navbar-defalut navbar-inverse">
+        <div class="container-fliuid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.pinimg.com/736x/d4/4c/19/d44c19fa29050803d7f0939f5b4b8709--book-store-logo-logo-book.jpg" width="120" height="70">
+                </a>
+            </div>
+            <div id="navbar">
+                <ul class="nav navbar- nav navbar-left">
+                    <li class="dropdown"><a th:href="@{/bookshelf}" class="dropdown-toggle"
+                                            data-toggle="dropdown" role="button" aria-haspopup="true"
+                                            aria-expanded="false">Book<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a th:href="@{/book/add}">Add a new book</a></li>
+                        <li><a th:href="@{/book/bookList}">View book list</a></li>
+                        <li><a th:href="@{/bookshelf}">Browse bookshelf</a></li>
+                    </ul></li>
+
+
+                    </ul>
+                <ul class="nav navbar- nav navbar-right">
+                    <li><a th:href="@{/shoppingCart/cart}">SHOPPING CART</a></li>
+                    <li><a th:href="@{/login}">Logout</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+</div>
+
+    <div th:fragment="body-bottom-script">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>
