@@ -16,29 +16,29 @@ BookShelf: It has books in it with "Add to cart" option where they can add book 
 
 Shopping cart: Users can shop for books and add it to the cart.
 
-**Technologies**
+#Technologies
 
-1.HTML
+  *HTML
+  
+  *CSS
 
-2.CSS
+  *Bootstrap
 
-3.Bootstrap
+  *Thymleaf
 
-4.Thymleaf
+  *Core Java
 
-5.Core Java
+  *Spring MVC
 
-6.Spring MVC
+  *Spring Security
 
-7.Spring Security
+  *JPA
 
-8.JPA
+  *Hibernate
 
-9.Hibernate
+  *PhpMyAdmin(database)
 
-10.PhpMyAdmin(database)
-
-What I'll Have to Learn
+*What I'll Have to Learn*
 
 Spring Security, hibernate
 
