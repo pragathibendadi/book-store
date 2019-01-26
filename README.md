@@ -16,7 +16,7 @@ BookShelf: It has books in it with "Add to cart" option where they can add book 
 
 Shopping cart: Users can shop for books and add it to the cart.
 
-#Technologies
+**Technologies**
 
 1.HTML
 
