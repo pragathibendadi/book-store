@@ -1,10 +1,10 @@
-# book-store
+# Book-store 
 Online book store
 
-#Overview:
+##**Overview:**
 My project consists of secure Online bookstore which is an online web application, where customer can login or register an username and password in online bookstore to purchase books online.Users can also add new books to the bookshelf.Later user can update quantity and add it to the shopping cart.
 
-#Features:
+##**Features:**
 
 User Login: Users will be able to create accounts and log in to the application. Each user will have a profile page.
 
@@ -16,7 +16,7 @@ BookShelf: It has books in it with "Add to cart" option where they can add book 
 
 Shopping cart: Users can shop for books and add it to the cart.
 
-#Technologies
+#**Technologies**
 
 1.HTML
 
@@ -38,7 +38,7 @@ Shopping cart: Users can shop for books and add it to the cart.
 
 10.PhpMyAdmin(database)
 
-What I'll Have to Learn
+*What I'll Have to Learn*
 
 Spring Security, hibernate
 
