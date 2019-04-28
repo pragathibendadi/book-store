@@ -30,11 +30,13 @@ public class MainController {
 
     @RequestMapping("/")
     public String root() {
+        System.out.println("root");
         return "index";
     }
 
     @RequestMapping("/login")
     public String login(Model model) {
+        System.out.println("login");
         return "login";
     }
 

@@ -17,7 +17,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserService userService;
 
-    // we make sure to permit all access to the /regiatration page
+    // we make sure to permit all access to the /registration page
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http

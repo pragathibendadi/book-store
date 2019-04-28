@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org/"xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
-<head th:fragment="common-header" >
-    <!--meta charset="UTF-8"-->
-    <title>Book Store</title>
+<!--<head th:fragment="common-header" >-->
+    <!--&lt;!&ndash;meta charset="UTF-8"&ndash;&gt;-->
+    <!--<title>Book Store</title>-->
 
-    <!-- Bootstrap core css-->
-    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--&lt;!&ndash; Bootstrap core css&ndash;&gt;-->
+    <!--<link href="/css/bootstrap.min.css" rel="stylesheet"/>-->
 
-    <link href="/css/non-responsive.css" rel="stylesheet" />
+    <!--<link href="/css/non-responsive.css" rel="stylesheet" />-->
 
-    <!--Custom styles for this template-->
-    <link href="/css/styles.css" rel="stylesheet" />
+    <!--&lt;!&ndash;Custom styles for this template&ndash;&gt;-->
+    <!--<link href="/css/styles.css" rel="stylesheet" />-->
+<!--</head>-->
+
+<head th:fragment="common-header">
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!--<link href="/css/styles.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="/css/styles.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -22,7 +35,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img src="https://www.childrensbookstore.com/app/themes/childrens-bookstore/images/logo.png" width="170" height="30">
+                    <!--<img src="https://www.i.pingmg.com/236xd4/4c/19/d44c19f-book-store-logo-logo-book.jpg" width="170" height="30">-->
                 </a>
             </div>
             <div id="navbar">
@@ -51,7 +64,7 @@
     </nav>
 </div>
 
-    <div th:fragment="body-bottom-script">
+    <div th:fragment="body-bottom-scripts">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
     </div>

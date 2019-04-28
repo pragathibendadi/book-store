@@ -4,18 +4,10 @@
 <title> Add Book </title>
 <body>
 <div th:replace="common/header :: navbar" />
-<div class="container">
-    <div class="row" style="margine-bottem: -100px;">
-        <div class="col-xs-8">
-            <h2>
-                All Books
-            </h2>
-        </div>
-    </div>
-</div>
+
 <form th:action="@{/shoppingCart/addItem}" method="post">
     <input hidden="hidden" th:field="*{book.id}" />
-    <div class="row">
+    <div class="row" style="margin-left:20px;">
         <div class="col-xs-9">
             <h3 class="align-baseline" th:text="${book.title}" style="color:red">Book Title</h3>
             <div class="row">
@@ -27,7 +19,7 @@
                     <div class="panel panel-default" style="border-width: 5px; margin-top: 20px;">
                         <div class="panel-body">
                             <div class="row">
-                                <div class="col-xs-6">
+                                <div class="col-md-6">
                                     <h4>Our Price: <span style="color:#db3208;">$<span th:text="${book.ourPrice}"></span></span></h4>
                                     <p>List Price: <span style="text-decoration: line-through">$<span th:text="${book.listPrice}"></span></span></p>
                                     <p>You save: $<span th:text="${#numbers.formatDecimal((book.listPrice - book.ourPrice), 0, 'COMMA', 2, 'POINT' )}"></span></p>
